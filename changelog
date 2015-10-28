@@ -1,0 +1,12 @@
+python-protocol 0.3 :
+discovery : args entrée : aucun
+			args sortie : list des chromecasts détectés
+			
+launch_app : args entrée : identifiant_chromecast identifiant_app
+			 args sortie : aucun
+			 
+send : args entrée : identifiant_chromecast url_video mimetype
+	   args sortie : aucun
+	   
+play : args entrée : identifiant_chromecast
+	   args sortie : aucun
