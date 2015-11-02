@@ -23,4 +23,4 @@ class DeviceListener:
 zeroconf = Zeroconf()
 listener = DeviceListener()
 browser = ServiceBrowser(zeroconf, "_googlecast._tcp.local.", listener)
-time.sleep(5)
+time.sleep(10)
