@@ -5,4 +5,4 @@ import sys
 
 cast=Chromecast(sys.argv[1])
 wait_init(cast)
-cast.media_controller.play()
+cast.media_controller.stop()
